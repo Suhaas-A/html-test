@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxe | Products</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <style>.material-symbols-outlined{font-variation-settings:'FILL'0,'wght'400,'GRAD'0,'opsz'24}</style>
+</head>
+<body class="bg-black text-gray-100 font-sans">
+
+  <!-- Header (same pattern) -->
+  <header class="w-full bg-black/90 backdrop-blur border-b border-[#262626]">
+    <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+      <a href="Black_Gold_Revolve_Style_Homepage.html" class="text-2xl tracking-[0.35em] font-semibold uppercase text-[#d4af37]">LUXE</a>
+      <nav class="hidden md:flex gap-6 text-xs uppercase tracking-wide">
+        <a href="products.html" class="hover:text-[#d4af37]">Women</a>
+        <a href="products.html" class="hover:text-[#d4af37]">Men</a>
+        <a href="products.html" class="text-[#d4af37]">New In</a>
+      </nav>
+      <div class="flex items-center gap-4 text-gray-300">
+        <a href="profile.html" aria-label="Account" class="hover:text-[#d4af37]">
+          <span class="material-symbols-outlined">person</span>
+        </a>
+        <a href="cart.html" aria-label="Bag" class="relative hover:text-[#d4af37]">
+          <span class="material-symbols-outlined">shopping_bag</span>
+          <span class="absolute -top-1 -right-1 bg-[#d4af37] text-black text-[10px] rounded-full px-1">2</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-10 space-y-14">
+
+    <!-- Category hero / editorial -->
+    <section class="rounded-3xl overflow-hidden bg-gradient-to-r from-[#262626] via-black to-[#0e0e0e] border border-[#333] p-10 flex flex-col md:flex-row gap-6 md:items-center">
+      <div class="space-y-3 max-w-md">
+        <p class="text-xs tracking-[0.3em] uppercase text-[#d4af37]">New Arrivals</p>
+        <h1 class="text-3xl font-semibold">Elevate your essentials.</h1>
+        <p class="text-sm text-gray-300">Handpicked luxe edits dropping every week. Timeless, tailored & bold — made for the spotlight.</p>
+      </div>
+      <div class="flex-1 bg-gradient-to-b from-[#757575] to-[#1d1d1d] rounded-2xl h-48 md:h-56"></div>
+    </section>
+
+    <section class="grid grid-cols-1 lg:grid-cols-4 gap-10">
+      <!-- Filters -->
+      <aside class="space-y-6 lg:sticky lg:top-20 h-max">
+        <h2 class="text-lg font-semibold tracking-wide uppercase text-[#d4af37]">Filters</h2>
+
+        <div class="space-y-2">
+          <p class="text-sm font-medium">Category</p>
+          <ul class="space-y-1 text-xs text-gray-300">
+            <li><label><input type="checkbox" class="mr-2">Dresses</label></li>
+            <li><label><input type="checkbox" class="mr-2">Tops</label></li>
+            <li><label><input type="checkbox" class="mr-2">Suits & Blazers</label></li>
+            <li><label><input type="checkbox" class="mr-2">Skirts</label></li>
+          </ul>
+        </div>
+
+        <div class="space-y-2">
+          <p class="text-sm font-medium">Size</p>
+          <div class="grid grid-cols-4 gap-2">
+            <button class="border border-[#333] px-2 py-1 rounded-md text-xs hover:border-[#d4af37]">XS</button>
+            <button class="border border-[#333] px-2 py-1 rounded-md text-xs hover:border-[#d4af37]">S</button>
+            <button class="border border-[#333] px-2 py-1 rounded-md text-xs hover:border-[#d4af37]">M</button>
+            <button class="border border-[#333] px-2 py-1 rounded-md text-xs hover:border-[#d4af37]">L</button>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <p class="text-sm font-medium">Price</p>
+          <select class="w-full bg-black border border-[#333] text-xs rounded-md px-2 py-2">
+            <option>Under ₹3,000</option>
+            <option>₹3,000 - ₹6,000</option>
+            <option>₹6,000 - ₹10,000</option>
+            <option>Above ₹10,000</option>
+          </select>
+        </div>
+      </aside>
+
+      <!-- Products -->
+      <div class="lg:col-span-3 space-y-10">
+        <div class="flex justify-between items-center">
+          <p class="text-sm text-gray-400">Showing 12 products</p>
+          <select class="bg-black border border-[#333] text-xs rounded-full px-3 py-1.5">
+            <option>Sort: Featured</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+            <option>Newest First</option>
+          </select>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+          <!-- Example product card -->
+          <a href="products.html" class="group">
+            <div class="relative rounded-2xl overflow-hidden border border-[#262626] bg-[#111]">
+              <div class="aspect-[3/4] bg-gradient-to-b from-[#343434] to-black"></div>
+              <span class="absolute top-3 left-3 bg-[#d4af37] text-black text-[11px] px-2 py-1 rounded-full font-semibold">New</span>
+            </div>
+            <div class="mt-2 text-xs sm:text-sm space-y-1">
+              <p class="uppercase tracking-wide text-gray-400">Luxe Label</p>
+              <p class="text-sm">Satin Gold Wrap Dress</p>
+              <p class="text-xs text-gray-400">Gold • XS–L</p>
+              <p class="text-sm font-semibold text-[#d4af37]">₹6,490</p>
+            </div>
+          </a>
+
+          <!-- You can duplicate more product cards and change text -->
+        </div>
+
+        <!-- Trending rail -->
+        <div class="space-y-4 pt-10">
+          <h3 class="tracking-wide uppercase text-[#d4af37] text-sm">Trending Now</h3>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="aspect-[3/4] bg-gradient-to-b from-[#474747] to-black rounded-2xl"></div>
+            <div class="aspect-[3/4] bg-gradient-to-b from-[#2a2a2a] to-black rounded-2xl"></div>
+            <div class="aspect-[3/4] bg-gradient-to-b from-[#303030] to-black rounded-2xl"></div>
+            <div class="aspect-[3/4] bg-gradient-to-b from-[#383838] to-black rounded-2xl"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+</body>
+</html>

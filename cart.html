@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxe | Cart</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <style>.material-symbols-outlined{font-variation-settings:'FILL'0,'wght'400,'GRAD'0,'opsz'24}</style>
+</head>
+<body class="bg-black text-gray-100 font-sans">
+
+  <!-- Header -->
+  <header class="w-full bg-black/90 backdrop-blur border-b border-[#262626]">
+    <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+      <a href="Black_Gold_Revolve_Style_Homepage.html" class="text-2xl tracking-[0.35em] font-semibold uppercase text-[#d4af37]">LUXE</a>
+      <a href="profile.html" class="text-[#d4af37] uppercase text-xs tracking-wide">Account</a>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-10 space-y-10">
+    <h1 class="text-2xl font-semibold tracking-wide uppercase">Shopping Bag</h1>
+
+    <div class="grid lg:grid-cols-3 gap-8">
+      <!-- Items -->
+      <div class="lg:col-span-2 space-y-6">
+        <div class="flex gap-4 items-center border border-[#262626] rounded-2xl p-4">
+          <div class="w-24 h-28 rounded-xl bg-gradient-to-b from-[#272727] to-black"></div>
+          <div class="flex-1 space-y-1">
+            <p class="text-sm font-medium">Velvet Corset Mini Dress</p>
+            <p class="text-xs text-gray-400">Black • Size M</p>
+            <div class="flex items-center gap-3 mt-2">
+              <select class="bg-black border border-[#333] text-xs rounded-md px-2 py-1">
+                <option>Qty: 1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+              <button class="text-xs text-gray-400 hover:text-[#d4af37]">Remove</button>
+            </div>
+          </div>
+          <p class="text-sm font-semibold text-[#d4af37]">₹5,490</p>
+        </div>
+      </div>
+
+      <!-- Summary -->
+      <div class="border border-[#262626] rounded-2xl p-6 space-y-4 bg-[#0a0a0a]">
+        <h2 class="font-semibold tracking-wide uppercase">Order Summary</h2>
+        <div class="flex justify-between text-sm">
+          <p>Subtotal</p>
+          <p>₹5,490</p>
+        </div>
+        <div class="flex justify-between text-sm">
+          <p>Shipping</p>
+          <p class="text-[#d4af37]">Free</p>
+        </div>
+        <hr class="border-[#333]" />
+        <div class="flex justify-between font-semibold">
+          <p>Total</p>
+          <p class="text-[#d4af37]">₹5,490</p>
+        </div>
+        <a href="checkout.html" class="block text-center w-full bg-[#d4af37] text-black py-2.5 rounded-full text-sm font-medium hover:bg-[#f1d483] transition">
+          Proceed to Checkout
+        </a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

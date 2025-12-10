@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxe | Checkout</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-gray-100 font-sans">
+
+  <!-- Header -->
+  <header class="w-full bg-black/90 backdrop-blur border-b border-[#262626]">
+    <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+      <a href="Black_Gold_Revolve_Style_Homepage.html" class="text-2xl tracking-[0.35em] font-semibold uppercase text-[#d4af37]">LUXE</a>
+      <a href="profile.html" class="text-[#d4af37] uppercase text-xs tracking-wide">Account</a>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-10 grid lg:grid-cols-3 gap-10">
+    <!-- Left -->
+    <div class="lg:col-span-2 space-y-10">
+      <!-- Address -->
+      <section class="space-y-4">
+        <h2 class="text-lg font-semibold tracking-wide uppercase text-[#d4af37]">Delivery Address</h2>
+        <form class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+          <input type="text" placeholder="Full Name" class="bg-black border border-[#333] rounded-md px-3 py-2 placeholder:text-gray-500">
+          <input type="text" placeholder="Phone" class="bg-black border border-[#333] rounded-md px-3 py-2 placeholder:text-gray-500">
+          <input type="text" placeholder="Address Line 1" class="sm:col-span-2 bg-black border border-[#333] rounded-md px-3 py-2 placeholder:text-gray-500">
+          <input type="text" placeholder="City" class="bg-black border border-[#333] rounded-md px-3 py-2 placeholder:text-gray-500">
+          <input type="text" placeholder="State" class="bg-black border border-[#333] rounded-md px-3 py-2 placeholder:text-gray-500">
+          <input type="text" placeholder="PIN Code" class="bg-black border border-[#333] rounded-md px-3 py-2 placeholder:text-gray-500">
+        </form>
+      </section>
+
+      <!-- Payment -->
+      <section class="space-y-4">
+        <h2 class="text-lg font-semibold tracking-wide uppercase text-[#d4af37]">Payment</h2>
+        <div class="space-y-3 text-xs">
+          <label class="flex items-center gap-3 border border-[#262626] rounded-xl p-3 cursor-pointer">
+            <input type="radio" name="pay" checked>
+            <span>Credit / Debit Card</span>
+          </label>
+          <label class="flex items-center gap-3 border border-[#262626] rounded-xl p-3 cursor-pointer">
+            <input type="radio" name="pay">
+            <span>UPI</span>
+          </label>
+          <label class="flex items-center gap-3 border border-[#262626] rounded-xl p-3 cursor-pointer">
+            <input type="radio" name="pay">
+            <span>Cash on Delivery</span>
+          </label>
+        </div>
+      </section>
+    </div>
+
+    <!-- Summary -->
+    <aside class="space-y-4 border border-[#262626] bg-[#0c0c0c] rounded-2xl p-6 h-max lg:sticky lg:top-20">
+      <h3 class="tracking-wide uppercase text-[#d4af37] text-sm font-semibold">Order Summary</h3>
+      <div class="flex justify-between text-sm">
+        <p>Subtotal</p>
+        <p>₹5,490</p>
+      </div>
+      <div class="flex justify-between text-sm">
+        <p>Shipping</p>
+        <p class="text-[#d4af37] font-medium">Free</p>
+      </div>
+      <hr class="border-[#333]" />
+      <div class="flex justify-between font-semibold">
+        <p>Total</p>
+        <p class="text-[#d4af37]">₹5,490</p>
+      </div>
+      <button class="w-full bg-[#d4af37] text-black py-2.5 rounded-full text-sm font-medium hover:bg-[#f1d483] transition">
+        Place Order
+      </button>
+    </aside>
+  </main>
+</body>
+</html>

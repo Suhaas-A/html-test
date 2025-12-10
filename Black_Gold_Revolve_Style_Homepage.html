@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxe | Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Material Symbols (for icons) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+  </style>
+</head>
+<body class="bg-black text-gray-100 font-sans">
+  <!-- Top promo bar -->
+  <div class="w-full bg-[#111111] text-xs sm:text-sm tracking-wide text-center py-2 border-b border-[#262626]">
+    <span class="text-[#d4af37] font-semibold">MIN 30% OFF</span>
+    <span class="mx-1 text-gray-400">•</span>
+    <span>Free shipping on orders over ₹2,499</span>
+  </div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-30 w-full bg-black/90 backdrop-blur border-b border-[#262626]">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+      <!-- Logo -->
+      <a href="Black_Gold_Revolve_Style_Homepage.html" class="text-2xl tracking-[0.35em] font-semibold uppercase text-[#d4af37]">
+        LUXE
+      </a>
+
+      <!-- Nav -->
+      <nav class="hidden md:flex items-center gap-8 text-sm uppercase tracking-wide">
+        <a href="products.html" class="hover:text-[#d4af37] transition">Women</a>
+        <a href="products.html" class="hover:text-[#d4af37] transition">Men</a>
+        <a href="products.html" class="hover:text-[#d4af37] transition">New In</a>
+        <a href="products.html" class="hover:text-[#d4af37] transition">Dresses</a>
+        <a href="products.html" class="hover:text-[#d4af37] transition">Party</a>
+        <a href="products.html" class="text-[#d4af37]">Sale</a>
+      </nav>
+
+      <!-- Icons -->
+      <div class="flex items-center gap-4 text-gray-300">
+        <button class="hidden sm:inline-flex items-center gap-2 text-xs border border-[#333] rounded-full px-3 py-1.5 hover:border-[#d4af37]">
+          <span class="material-symbols-outlined text-sm">search</span>
+          <span>Search</span>
+        </button>
+        <a href="profile.html" aria-label="Account" class="hover:text-[#d4af37]">
+          <span class="material-symbols-outlined">person</span>
+        </a>
+        <a href="cart.html" aria-label="Bag" class="relative hover:text-[#d4af37]">
+          <span class="material-symbols-outlined">shopping_bag</span>
+          <span class="absolute -top-1 -right-1 bg-[#d4af37] text-black text-[10px] rounded-full px-1">2</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+    <!-- HERO SECTION (same as before, just linking Shop buttons) -->
+    <section class="grid lg:grid-cols-2 gap-8 lg:gap-12 py-10 lg:py-16 items-center">
+      <!-- Text -->
+      <div class="space-y-6">
+        <p class="text-xs tracking-[0.3em] uppercase text-[#d4af37]">The Midnight Collection</p>
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight">
+          Step into the
+          <span class="text-[#d4af37]">golden hour</span>
+          of your wardrobe.
+        </h1>
+        <p class="text-sm sm:text-base text-gray-300 max-w-md">
+          Curated party edits, limited drops, and statement pieces in luxe fabrics.
+          Inspired by city lights, made for all-nighters.
+        </p>
+
+        <div class="flex flex-wrap gap-3 pt-2">
+          <a
+            href="products.html"
+            class="inline-flex items-center justify-center px-6 py-2.5 rounded-full text-sm font-medium bg-[#d4af37] text-black hover:bg-[#f1d483] transition"
+          >
+            Shop New In
+          </a>
+          <a
+            href="products.html"
+            class="inline-flex items-center justify-center px-6 py-2.5 rounded-full text-sm font-medium border border-[#444] text-gray-100 hover:border-[#d4af37] hover:text-[#d4af37] transition"
+          >
+            Discover Party Edit
+          </a>
+        </div>
+
+        <div class="flex flex-wrap gap-3 pt-4 text-xs text-gray-400">
+          <span class="px-3 py-1 rounded-full border border-[#333]">Blazers</span>
+          <span class="px-3 py-1 rounded-full border border-[#333]">Statement Dresses</span>
+          <span class="px-3 py-1 rounded-full border border-[#333]">Metallics</span>
+        </div>
+      </div>
+
+      <!-- Hero visual -->
+      <div class="relative">
+        <div
+          class="aspect-[3/4] rounded-[2rem] overflow-hidden bg-gradient-to-b from-[#202020] via-black to-[#111111] border border-[#262626] shadow-2xl flex items-end justify-center p-6"
+        >
+          <div class="w-full h-full absolute inset-0 bg-[url('https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg')] bg-cover bg-center opacity-80"></div>
+          <div class="relative z-10 w-full flex justify-between items-end">
+            <div>
+              <p class="text-[11px] uppercase tracking-[0.25em] text-gray-300">Featured look</p>
+              <p class="text-sm font-medium">Midnight Sequin Slip Dress</p>
+            </div>
+            <div class="bg-black/70 backdrop-blur px-3 py-2 rounded-xl border border-[#444] text-xs text-right">
+              <p class="text-gray-300">Starting at</p>
+              <p class="text-[#d4af37] font-semibold">₹4,990</p>
+            </div>
+          </div>
+        </div>
+        <div class="absolute -bottom-6 left-6 bg-black/80 backdrop-blur px-4 py-3 rounded-2xl border border-[#333] text-xs flex items-center gap-3">
+          <span class="h-8 w-8 rounded-full bg-gradient-to-tr from-[#d4af37] to-yellow-200" aria-hidden="true"></span>
+          <div>
+            <p class="font-medium text-gray-100">Luxe Insider</p>
+            <p class="text-[11px] text-gray-400">Members get early access to drops</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shop by vibe, New In, Party Edit, Newsletter sections can stay same as you have;
+         just make sure any "View all" / "Shop" links point to products.html or relevant pages. -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-[#262626] bg-black">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-xs text-gray-400 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+      <div class="flex flex-wrap gap-4">
+        <a href="#" class="hover:text-[#d4af37]">Help</a>
+        <a href="#" class="hover:text-[#d4af37]">Shipping</a>
+        <a href="#" class="hover:text-[#d4af37]">Returns</a>
+        <a href="#" class="hover:text-[#d4af37]">Terms</a>
+        <a href="#" class="hover:text-[#d4af37]">Privacy</a>
+      </div>
+      <p class="text-[11px]">© 2025 Luxe. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
